@@ -1,0 +1,55 @@
+    body {
+        background-color: rgb(139, 0, 139); 
+        font-family: 'Playfair Display', serif;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* coloca um espaço entre o hub e o gif */
+        align-items: center; /* coloca supostamente no centro */
+        min-height: 75vh; /* mexendo aqui sobe e desce a imagem do gif ou melhor mexe na altura da imagem*/}
+    
+    nav {
+        display: flex;
+        justify-content: center; /* Coloca horizontalmente os links e deu o efeito de hub que eu tanto queria */
+        margin-top: 20px; /* Espaço entre o topo e o negocio da tela */}
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center; /* Centraliza os itens horizontalmente */}
+
+    nav li {
+     margin-right: 20px; /* Espaço entre os objetos */}
+
+        /* Parte que eu gosto a das cores dos links ou melhor objetos */
+    nav a {
+        text-decoration: none;
+        color: rgb(244, 125, 255);
+        font-weight: bold;
+        border: 2px solid white; /* Adiciona uma borda branca */
+        padding: 10px 20px; 
+        border-radius: 10px 10px 0px 0px; /* direita esquerda baixo e cima, pra a forma que eu queria precisei dizer como queria cada lado */
+        transition: transform 0.2s ease, box-shadow 0.2s ease; /* Adiciona um efeito de brilhinho legal dms */
+
+    }
+
+    nav a:hover {/*Aqui e onde realmente o brilhinho e a estilização purpurinosa acontece(obs n sei pq mas os comentarios estão bugando e so pegaram assim no codigo */
+        color: rgb(255, 0, 149);/*Corzinha na letra*/
+        border-bottom: 2px 2px 2px 2px solid rgb(244, 125, 255);/*deixa a bora bonitinha quando mexe la no mouse*/
+        box-shadow: 0px 4px 6px rgba(255, 3, 221, 0.836);/*Aqui faz uma sombra abaixo do objeto e eu deixei pra parecer que ele se mexe e faz um brilhin*/
+    }
+
+    p {
+        color: rgb(244, 125, 255);
+        font-family: 'Playfair Display', serif;/* Jeito da letrinha*/
+        font-weight: bold;/* altura da letrinha */
+        text-align: center; /* oq se faz pra centralizar o testo */
+    }
+
+    img {
+        width: 700px; /* largura*/
+        height: 380px; /* altura do gif */
+        border: 3px solid white; /* coloca uma borda bonitinha*/
+        border-radius: 10px; /* estiliza o cantinho da borda deixando redonda que fofura*/}    
